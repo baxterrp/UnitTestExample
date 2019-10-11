@@ -2,7 +2,7 @@
 
 namespace UnitTestingMVC.Services
 {
-    public interface ICalcalatorFacade
+    public interface ICalculatorFacade
     {
         CalculatorViewModel GetCalculation(CalculatorViewModel model);
     }

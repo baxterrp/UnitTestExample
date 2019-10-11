@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using UnitTestingMVC.Services;
 
 namespace UnitTestingMVC
 {
@@ -31,6 +32,8 @@ namespace UnitTestingMVC
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            services.AddSingleton<ICalculatorFacade, CalculatorFacade>();
+            services.AddSingleton<ICalculationService, CalculatorService>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

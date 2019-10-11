@@ -9,7 +9,7 @@ namespace TestProj
 {
     public class CalculatorFacadeTests
     {
-        private readonly ICalcalatorFacade _calcalatorFacade;
+        private readonly ICalculatorFacade _calcalatorFacade;
         private Mock<ICalculationService> _calculatorService;
 
         public CalculatorFacadeTests()

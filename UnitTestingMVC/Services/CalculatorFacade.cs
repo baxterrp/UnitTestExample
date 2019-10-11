@@ -3,7 +3,7 @@ using UnitTestingMVC.Models;
 
 namespace UnitTestingMVC.Services
 {
-    public class CalculatorFacade : ICalcalatorFacade
+    public class CalculatorFacade : ICalculatorFacade
     {
         private readonly ICalculationService _calculatorService;
 
