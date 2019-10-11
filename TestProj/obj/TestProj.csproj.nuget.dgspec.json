@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\baxterr\\source\\repos\\UnitTestingMVC\\TestProj\\TestProj.csproj": {}
+    "C:\\UnitTestExample\\TestProj\\TestProj.csproj": {}
   },
   "projects": {
-    "C:\\Users\\baxterr\\source\\repos\\UnitTestingMVC\\TestProj\\TestProj.csproj": {
+    "C:\\UnitTestExample\\TestProj\\TestProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\baxterr\\source\\repos\\UnitTestingMVC\\TestProj\\TestProj.csproj",
+        "projectUniqueName": "C:\\UnitTestExample\\TestProj\\TestProj.csproj",
         "projectName": "TestProj",
-        "projectPath": "C:\\Users\\baxterr\\source\\repos\\UnitTestingMVC\\TestProj\\TestProj.csproj",
-        "packagesPath": "C:\\Users\\baxterr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\baxterr\\source\\repos\\UnitTestingMVC\\TestProj\\obj\\",
+        "projectPath": "C:\\UnitTestExample\\TestProj\\TestProj.csproj",
+        "packagesPath": "C:\\Users\\baxte\\.nuget\\packages\\",
+        "outputPath": "C:\\UnitTestExample\\TestProj\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\baxterr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\baxte\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,14 +25,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://artifacts.us.dominos.com/artifactory/api/nuget/v3/nuget-ngp-all": {},
-          "https://artifacts.us.dominos.com/artifactory/api/nuget/v3/nuget-ngp-snapshot": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\baxterr\\source\\repos\\UnitTestingMVC\\UnitTestingMVC\\UnitTestingMVC.Web.csproj": {
-                "projectPath": "C:\\Users\\baxterr\\source\\repos\\UnitTestingMVC\\UnitTestingMVC\\UnitTestingMVC.Web.csproj"
+              "C:\\UnitTestExample\\UnitTestingMVC\\UnitTestingMVC.Web.csproj": {
+                "projectPath": "C:\\UnitTestExample\\UnitTestingMVC\\UnitTestingMVC.Web.csproj"
               }
             }
           }
@@ -73,20 +72,20 @@
         }
       }
     },
-    "C:\\Users\\baxterr\\source\\repos\\UnitTestingMVC\\UnitTestingMVC\\UnitTestingMVC.Web.csproj": {
+    "C:\\UnitTestExample\\UnitTestingMVC\\UnitTestingMVC.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\baxterr\\source\\repos\\UnitTestingMVC\\UnitTestingMVC\\UnitTestingMVC.Web.csproj",
+        "projectUniqueName": "C:\\UnitTestExample\\UnitTestingMVC\\UnitTestingMVC.Web.csproj",
         "projectName": "UnitTestingMVC.Web",
-        "projectPath": "C:\\Users\\baxterr\\source\\repos\\UnitTestingMVC\\UnitTestingMVC\\UnitTestingMVC.Web.csproj",
-        "packagesPath": "C:\\Users\\baxterr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\baxterr\\source\\repos\\UnitTestingMVC\\UnitTestingMVC\\obj\\",
+        "projectPath": "C:\\UnitTestExample\\UnitTestingMVC\\UnitTestingMVC.Web.csproj",
+        "packagesPath": "C:\\Users\\baxte\\.nuget\\packages\\",
+        "outputPath": "C:\\UnitTestExample\\UnitTestingMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\baxterr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\baxte\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,8 +93,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://artifacts.us.dominos.com/artifactory/api/nuget/v3/nuget-ngp-all": {},
-          "https://artifacts.us.dominos.com/artifactory/api/nuget/v3/nuget-ngp-snapshot": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
@@ -127,6 +125,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
             },
             "Moq": {
               "target": "Package",
